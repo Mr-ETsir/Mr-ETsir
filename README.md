@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=2F81F7&center=true&vCenter=true&width=640&lines=Hi%2C%20I%27m%20ET%20%F0%9F%91%8B;Full-Stack%20Developer%20%C2%B7%20Java%20%2F%20Python;HarmonyOS%20%2F%20ArkTS%20Developer;DevOps%20%C2%B7%20Deployment%20%C2%B7%20Troubleshooting" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=2F81F7&center=true&vCenter=true&width=640&lines=Hi%2C%20I%27m%20ET;Full-Stack%20Developer%20%C2%B7%20Java%20%2F%20Python;HarmonyOS%20%2F%20ArkTS%20Developer;DevOps%20%C2%B7%20Deployment%20%C2%B7%20Troubleshooting" alt="Typing SVG" />
 
 ### 全栈开发 · 运维实施 · 鸿蒙生态 · 工业信息化
 
@@ -12,16 +12,15 @@
 
 ---
 
-## 👨‍💻 关于我
+## 关于我
 
-- 🎓 **燕京理工学院** · 计算机科学与技术 · 本科（2027 届）
-- 🧩 熟悉 **Java / Spring Boot**、**Python**、**JavaScript / TypeScript**，可独立完成需求分析、方案设计、编码开发到上线运维的完整链路
-- 📱 鸿蒙生态开发者：**ArkTS / ArkUI / Stage 模型 / 元服务 / 分布式数据管理 / 多设备适配**
-- 🐳 运维与交付：**Git · Maven · Docker(Compose) · Nginx · HTTPS / CDN**，具备应用部署、故障排查、问题闭环的实操经验
-- 📈 关注方向：企业级后端开发、工业互联网平台、跨端应用与自动化运维
-- 📫 联系我：[liu2305814584@163.com](mailto:liu2305814584@163.com) · 或提交 GitHub Issue
+- **教育背景**：燕京理工学院 · 计算机科学与技术 · 本科（2027 届）
+- **技术方向**：Java / Spring Boot 后端、Python 工具链、HarmonyOS 跨端应用、三维可视化与容器化部署运维
+- **鸿蒙生态**：ArkTS / ArkUI / Stage 模型 / 元服务 / 分布式数据管理 / 多设备适配
+- **运维交付**：Git、Maven、Docker Compose、Nginx、HTTPS / CDN，具备应用部署、故障排查与工单闭环实操经验
+- **联系方式**：liu2305814584@163.com
 
-## 🛠 技术栈
+## 技术栈
 
 <div align="center">
 
@@ -30,16 +29,27 @@
 </div>
 
 - **语言 / 后端**：Java（Spring Boot、Spring Cloud、MyBatis-Plus）、Python、JavaScript / TypeScript、Node.js + Express、PHP（Laravel）
-- **前端 / 跨端**：React、Vue 3、Tailwind CSS、HarmonyOS ArkTS / ArkUI、微信小程序
+- **前端 / 跨端**：Vue 3、React、Three.js、Tailwind CSS、HarmonyOS ArkTS / ArkUI、微信小程序
 - **数据 / 中间件**：MySQL（数据库设计、索引调优、慢查询优化）、Redis、RESTful API、JWT 权限
 - **运维 / 工具**：Git、Maven、Docker & Docker Compose、Nginx、HTTPS / CDN、Linux 服务与网络运维、Cursor 等 AI 辅助开发工具
 - **其他**：无人机倾斜摄影与三维建模（RealityCapture）、体素化场景开发
 
-## 📌 精选项目
+## 精选项目
+
+### 本科毕业设计 · Yudream Voxelith Map Core（VMC）
+
+类 BlueMap 的 Minecraft Web 地图渲染核心，打通「存档解析 → 光照烘焙 → 瓦片金字塔 → 浏览器流式渲染」完整链路。
+
+- **后端**（Java 21 + Spring Boot 3.5）：自动编排 `resolve → scan → bake → tile → lod → manifest` 渲染管线，解析 Anvil / schematic 存档并烘焙光照与 AO，产出 glb 瓦片金字塔；支持 region 级增量重渲染、分布式分片作业队列、对象存储变更轮询；四层 DDD 限界上下文，ArchUnit 守护架构边界
+- **前端**（Vue 3 + TypeScript + Three.js）：瓦片流式加载、LOD 四叉树逐级切换、LRU 缓存与设备分档自适应视距、自由飞行 / 生存式第一人称 / 俯视倾斜三模式相机、按需生成的瓦片碰撞代理、Y 轴切片与标注图层
+- **压缩与工具链**：单块 64×64 网格瓦片 BIN 由 258 KB（float32）压缩至 50 KB（量化 + meshopt 熵编码）；`voxelith-forge` 提供产物审计、OGC 3D Tiles 1.1 导出与自包含 `.vxtbundle` 打包
+- **仓库**：[mcyudream/voxelith](https://github.com/mcyudream/voxelith) · MIT License
+
+### 其他开源项目
 
 | 项目 | 简介 | 技术栈 |
 | --- | --- | --- |
-| [Lottery](https://github.com/Mr-ETsir/Lottery) | 传统抽签祈福鸿蒙原生应用，摇一摇即可抽签，新国潮视觉，**已上架鸿蒙应用市场** | HarmonyOS · ArkTS · ArkUI |
+| [Lottery](https://github.com/Mr-ETsir/Lottery) | 传统抽签祈福鸿蒙原生应用，摇一摇即可抽签，已上架鸿蒙应用市场 | HarmonyOS · ArkTS · ArkUI |
 | [temple-fortune-miniapp](https://github.com/Mr-ETsir/temple-fortune-miniapp) | 抽签应用小程序端：实现「千人千签」独立签筒与加权随机抽签 | 微信小程序 · Node.js · Express · MySQL · JWT |
 | [wanxiang-news](https://github.com/Mr-ETsir/wanxiang-news) | 智能新闻发布系统：三级权限 + 审核工作流 + 智能推荐 | Spring Cloud · Eureka · Gateway · MyBatis-Plus · Docker Compose |
 | [EasyLink-SmartHub](https://github.com/Mr-ETsir/EasyLink-SmartHub) | 易联智枢：智能设备共享平台，微服务拆分与容器化部署 | Spring Cloud · Spring Boot · Vue 2 · MySQL · Redis · Docker |
@@ -55,24 +65,24 @@
 - **阿里法拍数据采集工具**（Python · Requests · XPath · Pandas）—— 页面解析、自动翻页、数据去重与结构化导出，分钟级采集数百条标的物信息
 - **虚拟校园数字化复原**（无人机倾斜摄影 · 三维建模 · 体素化）—— 基于航拍实景建模，场景还原度 95% 以上，用于校园宣传与教学研究
 
-## 🏅 荣誉与证书
+## 荣誉与证书
 
 **竞赛荣誉**
 
-- 🥇 传智杯程序设计挑战赛 · **国赛一等奖**
-- 🥈 华为 ICT 大赛 · 省级二等奖
-- 🥉 蓝桥杯 Python 程序设计（大学 B 组）· 省级三等奖
-- 🥉 新华三杯 · 省级三等奖
-- 🥉 睿抗机器人开发者大赛 · 河北赛区编程技能竞赛项目三等奖
-- ⭐ 美国数据建模大赛 · S 奖
+- **国家级一等奖** · 传智杯程序设计挑战赛
+- **省级二等奖** · 华为 ICT 大赛
+- **省级三等奖** · 蓝桥杯 Python 程序设计（大学 B 组）
+- **省级三等奖** · 新华三杯
+- **河北赛区三等奖** · 睿抗机器人开发者大赛编程技能竞赛
+- **S 奖** · 美国数据建模大赛
 
-**专业技能认证**
+**专业认证**
 
 - 鸿蒙开发者认证
 - H3CSE-RS-RT 路由交换技术认证
 - ILITC 工业互联网平台开发工程师
 
-## 💼 实习经历
+## 实习经历
 
 **应用软件运维技术类实习生 · 联通事业部** — 亚信科技（中国）有限公司 · 2026.07 – 至今
 
@@ -92,7 +102,7 @@
 - 完成数据清洗与可视化，降低人工错误率
 - 协助维护宣传平台，保障平台稳定运行
 
-## 🎓 校园经历
+## 校园经历
 
 **燕京理工学院 ACM 协会 · 会长**（2024.02 – 2025.06）
 
@@ -108,8 +118,6 @@
 
 <div align="center">
 
-**「把复杂的问题拆开，再一步步做完。」**
-
-![Visitors](https://komarev.com/ghpvc/?username=Mr-ETsir&style=flat-square&color=2f81f7&label=Thanks+for+visiting)
+把复杂的问题拆开，再一步步做完。
 
 </div>
