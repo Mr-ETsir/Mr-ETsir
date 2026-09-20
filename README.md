@@ -36,7 +36,7 @@
 
 ## 精选项目
 
-### 本科毕业设计 · Yudream Voxelith Map Core（VMC）
+### Yudream Voxelith Map Core（VMC）
 
 类 BlueMap 的 Minecraft Web 地图渲染核心，打通「存档解析 → 光照烘焙 → 瓦片金字塔 → 浏览器流式渲染」完整链路。
 
