@@ -43,7 +43,7 @@
 - **后端**（Java 21 + Spring Boot 3.5）：自动编排 `resolve → scan → bake → tile → lod → manifest` 渲染管线，解析 Anvil / schematic 存档并烘焙光照与 AO，产出 glb 瓦片金字塔；支持 region 级增量重渲染、分布式分片作业队列、对象存储变更轮询；四层 DDD 限界上下文，ArchUnit 守护架构边界
 - **前端**（Vue 3 + TypeScript + Three.js）：瓦片流式加载、LOD 四叉树逐级切换、LRU 缓存与设备分档自适应视距、自由飞行 / 生存式第一人称 / 俯视倾斜三模式相机、按需生成的瓦片碰撞代理、Y 轴切片与标注图层
 - **压缩与工具链**：单块 64×64 网格瓦片 BIN 由 258 KB（float32）压缩至 50 KB（量化 + meshopt 熵编码）；`voxelith-forge` 提供产物审计、OGC 3D Tiles 1.1 导出与自包含 `.vxtbundle` 打包
-- **仓库**：[mcyudream/voxelith](https://github.com/mcyudream/voxelith) · MIT License
+- **仓库**：[Mr-ETsir/voxelith](https://github.com/Mr-ETsir/voxelith)（个人仓库，毕设主线开发）· 上游工作室仓库：[mcyudream/voxelith](https://github.com/mcyudream/voxelith) · MIT License
 
 ### 其他开源项目
 
