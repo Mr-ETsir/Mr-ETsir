@@ -19,7 +19,7 @@
 - 📱 鸿蒙生态开发者：**ArkTS / ArkUI / Stage 模型 / 元服务 / 分布式数据管理 / 多设备适配**
 - 🐳 运维与交付：**Git · Maven · Docker(Compose) · Nginx · HTTPS / CDN**，具备应用部署、故障排查、问题闭环的实操经验
 - 📈 关注方向：企业级后端开发、工业互联网平台、跨端应用与自动化运维
-- 📫 联系方式：欢迎通过 GitHub Issue 或主页邮箱与我交流
+- 📫 联系我：[liu2305814584@163.com](mailto:liu2305814584@163.com) · 或提交 GitHub Issue
 
 ## 🛠 技术栈
 
